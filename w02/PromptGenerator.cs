@@ -1,4 +1,7 @@
+
+
 using System;
+
 using System.Collections.Generic;
 
 public class PromptGenerator
@@ -14,7 +17,7 @@ public class PromptGenerator
         "What did I learn today that I did not know yesterday?"
     };
 
-    // Random  is the camp to evit the problem "ramdom multiple" result promts repite.
+    //"ramdom multiple" result promts repite.
     private Random _randomGenerator = new Random();
 
     public string GetRandomPrompt()
