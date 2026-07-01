@@ -2,11 +2,11 @@
 using System.IO;
 
 // EXCEEDING REQUIREMENTS:
-// To exceed the core requirements, I added basic error handling in the Journal.cs file 
-// to check if a file exists before trying to load it (using File.Exists). 
+// To exceed the core requirements 
+// to check if a file exists
 // I also used a custom separator ("~~") instead of a comma when saving to the text file 
 // to prevent data corruption if the user types a comma in their journal entry.
-// Added filename validation in the menu so the program does not crash if the user
+// Added filename validation in the menu
 // presses Enter without typing a name.
 
 class Program
