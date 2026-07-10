@@ -35,7 +35,19 @@ public class Word
     {
         if (_isHidden)
         {
-            return new string('_', _text.Length);
+            string hidden = "";
+            foreach (char letter in _text)
+            {
+                if (char.IsLetter(letter))
+                {
+                    hidden = hidden + "_";
+                }
+                else
+                {
+                    hidden = hidden + letter;
+                }
+            }
+            return hidden;
         }
 
         return _text;
